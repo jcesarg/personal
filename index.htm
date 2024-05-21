@@ -1,0 +1,2186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Julio César, Desarrollador Front-end, & diseñador gráfico/web</title>
+    <meta content="JCESAR es un diseñador y programador que crea hermosos sitios web, logos, marcas y experiencias. También ayuda a otros diseñadores a crecer compartiendo su conocimiento." name="description"/>
+    <meta content="JCESAR García — Diseñador y programador" property="og:title"/>
+    <meta content="JCESAR es un diseñador y programador que crea hermosos sitios web, logos, marcas y experiencias. También ayuda a otros diseñadores a crecer compartiendo su conocimiento." property="og:description"/>
+    <meta content="JCESAR García — Diseñador y programador" property="twitter:title"/>
+    <meta content="JCESAR es un diseñador y programador que crea hermosos sitios web, logos, marcas y experiencias. También ayuda a otros diseñadores a crecer compartiendo su conocimiento." property="twitter:description"/>
+    <meta property="og:type" content="website" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="assets/css/jcesar-site.min.css" rel="stylesheet" type="text/css"/>
+    
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+
+    <link href="assets/img/favicon-32x32.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="assets/img/favicon-256x256.png" rel="apple-touch-icon"/>   
+
+    <script type="text/javascript">
+      window.smartlook ||
+        (function (d) {
+          var o = (smartlook = function () {
+              o.api.push(arguments);
+            }),
+            h = d.getElementsByTagName("head")[0];
+          var c = d.createElement("script");
+          o.api = new Array();
+          c.async = true;
+          c.type = "text/javascript";
+          c.charset = "utf-8";
+          c.src = "assets/js/recorder.js";
+          h.appendChild(c);
+        })(document);
+      smartlook("init", "c68d44161c0191aeff5ff281e4a4eed7e6c3297e", {
+        region: "eu",
+      });
+    </script>
+
+    <link rel="stylesheet" href="assets/css/mouse-follower.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  </head>
+
+  <body class="body">
+    <div class="page_code_wrap">
+      <div class="css_reset w-embed">
+        <style>
+          /* RESET — normalize.css v8.0.1 */
+          html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+
+          main {
+            display: block;
+          }
+
+          h1 {
+            font-size: 2em;
+            margin: 0.67em 0;
+          }
+
+          hr {
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible;
+          }
+
+          pre {
+            font-family: monospace, monospace;
+            font-size: 1em;
+          }
+
+          a {
+            background-color: transparent;
+          }
+
+          abbr[title] {
+            border-bottom: none;
+            text-decoration: underline;
+            text-decoration: underline dotted;
+          }
+
+          b,
+          strong {
+            font-weight: bolder;
+          }
+
+          code,
+          kbd,
+          samp {
+            font-family: monospace, monospace;
+            font-size: 1em;
+          }
+
+          small {
+            font-size: 80%;
+          }
+
+          sub,
+          sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+          }
+
+          sub {
+            bottom: -0.25em;
+          }
+
+          sup {
+            top: -0.5em;
+          }
+
+          img {
+            border-style: none;
+          }
+
+          button,
+          input,
+          optgroup,
+          select,
+          textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+          }
+
+          button,
+          input {
+            overflow: visible;
+          }
+
+          button,
+          select {
+            text-transform: none;
+          }
+
+          [type="button"],
+          [type="reset"],
+          [type="submit"],
+          button {
+            -webkit-appearance: button;
+          }
+
+          [type="button"]::-moz-focus-inner,
+          [type="reset"]::-moz-focus-inner,
+          [type="submit"]::-moz-focus-inner,
+          button::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+          }
+
+          [type="button"]:-moz-focusring,
+          [type="reset"]:-moz-focusring,
+          [type="submit"]:-moz-focusring,
+          button:-moz-focusring {
+            outline: 1px dotted ButtonText;
+          }
+
+          fieldset {
+            padding: 0.35em 0.75em 0.625em;
+          }
+
+          legend {
+            box-sizing: border-box;
+            color: inherit;
+            display: table;
+            max-width: 100%;
+            padding: 0;
+            white-space: normal;
+          }
+
+          progress {
+            vertical-align: baseline;
+          }
+
+          textarea {
+            overflow: auto;
+          }
+
+          [type="checkbox"],
+          [type="radio"] {
+            box-sizing: border-box;
+            padding: 0;
+          }
+
+          [type="number"]::-webkit-inner-spin-button,
+          [type="number"]::-webkit-outer-spin-button {
+            height: auto;
+          }
+
+          [type="search"] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px;
+          }
+
+          [type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+          }
+
+          ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit;
+          }
+
+          details {
+            display: block;
+          }
+
+          summary {
+            display: list-item;
+          }
+
+          template {
+            display: none;
+          }
+
+          [hidden] {
+            display: none;
+          }
+
+          ul,
+          ol,
+          figure {
+            margin: 0;
+            padding: 0;
+          }
+
+          *,
+          :after,
+          :before {
+            box-sizing: border-box;
+          }
+
+          a {
+            color: inherit;
+            cursor: pointer;
+            text-decoration: none;
+          }
+
+          a:hover {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          a,
+          button,
+          input,
+          label {
+            -webkit-tap-highlight-color: transparent;
+          }
+
+          @media print {
+            a,
+            button,
+            input,
+            label {
+              text-decoration: underline;
+            }
+          }
+
+          button {
+            cursor: pointer;
+          }
+
+          button:disabled {
+            cursor: auto;
+          }
+
+          audio,
+          canvas,
+          iframe,
+          img,
+          svg,
+          video {
+            vertical-align: middle;
+          }
+
+          button,
+          input,
+          select,
+          textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+          }
+
+          blockquote,
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6,
+          p {
+            margin: 0;
+            padding: 0;
+            font-weight: inherit;
+            font-style: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            text-align: inherit;
+            letter-spacing: inherit;
+          }
+
+          address,
+          em {
+            font-style: normal;
+          }
+
+          img {
+            max-width: 100%;
+          }
+
+          img {
+            border: none;
+            pointer-events: none;
+          }
+
+          section {
+            position: relative;
+          }
+
+          /* WEBFLOW RESET */
+          /* hide container ::before & ::after */
+          .w-container::before,
+          .w-container::after,
+          .wf-empty[class*="--"] {
+            display: none;
+            padding-bottom: 0;
+            padding-right: 0;
+          }
+
+          /* prevent horizontal scroll */
+          .page_wrap {
+            overflow: clip;
+          }
+
+          /* enable setting w-button border radius with utilities */
+          .w-button {
+            border-radius: var(--border-radius);
+          }
+
+          /* flex: reverse direction */
+          [reverse-direction="true"] {
+            flex-direction: row-reverse;
+          }
+        </style>
+      </div>
+      <div class="css_base w-embed">
+        <style>
+          /* STYLE GUIDE */
+          :root {
+            --ff0: "Helveticanowdisplay", Helvetica, Roboto, Arial, apple-system,
+              sans-serif;
+            --ff1: "Faro", Helvetica, Roboto, Arial, apple-system, sans-serif;
+            --font-s-h0: clamp(3.5rem, 1.25rem + 5vw, 6.25rem);
+            --font-s-h1: clamp(48px, 1.7143rem + 4.2857vw, 96px);
+            --font-s-h2: clamp(40px, 1.6429rem + 2.8571vw, 72px);
+            --font-s-h3: clamp(28px, 1rem + 2.5vw, 56px);
+            --font-s-h4: clamp(32px, 1.7857rem + 0.7143vw, 40px);
+            --font-s-h5: clamp(22px, 1.2143rem + 0.5357vw, 28px);
+
+            /* font weight */
+            --fw0: inherit;
+            --fw1: 400;
+            --fw2: 500;
+            --fw3: 700;
+
+            /* line height */
+            --lh0: 1;
+            --lh1: 1.1;
+            --lh2: 1.2;
+            --lh3: 1.3;
+            --lh4: 1.4;
+            --lh5: 1.5;
+
+            /* letter spacing */
+            --ls0: inherit;
+            --ls1: 0.01em;
+            --ls2: -0.01em;
+            --ls3: -0.02em;
+          }
+
+          /* font family */
+          .ff1 {
+            font-family: var(--ff1) !important;
+          }
+
+          .ff0 {
+            font-family: var(--ff0) !important;
+          }
+
+          /* font weight */
+          .fw1 {
+            font-weight: var(--fw1);
+          }
+
+          .fw2 {
+            font-weight: var(--fw2);
+          }
+
+          .fw3 {
+            font-weight: var(--fw3);
+          }
+
+          .fw0 {
+            font-weight: var(--fw0);
+          }
+
+          /* line height */
+          .lh1 {
+            line-height: var(--lh1);
+          }
+
+          .lh2 {
+            line-height: var(--lh2);
+          }
+
+          .lh3 {
+            line-height: var(--lh3);
+          }
+
+          .lh4 {
+            line-height: var(--lh4);
+          }
+
+          .lh5 {
+            line-height: var(--lh5);
+          }
+
+          .lh0 {
+            line-height: var(--lh0);
+          }
+
+          /* letter spacing */
+          .ls1 {
+            letter-spacing: var(--ls1);
+          }
+
+          .ls2 {
+            letter-spacing: var(--ls2);
+          }
+
+          .ls3 {
+            letter-spacing: var(--ls3);
+          }
+
+          .ls0 {
+            letter-spacing: var(--ls0);
+          }
+
+          /* heading font styles */
+          .font-s-h0,
+          h1,
+          .font-s-h1,
+          h2,
+          .font-s-h2,
+          h3,
+          .font-s-h3,
+          h4,
+          .font-s-h4,
+          h5,
+          .font-s-h5,
+          h6,
+          .font-s-h6 {
+            font-family: var(--ff1);
+            line-height: var(--lh0);
+            letter-spacing: var(--ls3);
+            color: #000000;
+          }
+
+          /* individual font styles */
+          .font-s-h0 {
+            font-size: var(--font-s-h0);
+            letter-spacing: var(--ls3);
+          }
+
+          h1,
+          .font-s-h1 {
+            font-size: var(--font-s-h1);
+          }
+
+          h2,
+          .font-s-h2 {
+            font-size: var(--font-s-h2);
+          }
+
+          h3,
+          .font-s-h3 {
+            font-size: var(--font-s-h3);
+            letter-spacing: var(--ls3);
+          }
+
+          h4,
+          .font-s-h4 {
+            font-size: var(--font-s-h4);
+            letter-spacing: var(--ls0);
+          }
+
+          h5,
+          .font-s-h5 {
+            font-size: var(--font-s-h5);
+            letter-spacing: var(--ls0);
+          }
+
+          h6,
+          .font-s-h6 {
+            font-size: 1.375rem;
+            letter-spacing: var(--ls2);
+          }
+
+          .font-s-p3 {
+            font-size: clamp(28px, 1.2143rem + 0.5357vw, 22px);
+            line-height: var(--lh4);
+          }
+
+          /* body font styles */
+          body {
+            color: var(--content--secondary);
+            font-size: var(--body--font-s-p);
+            font-family: var(--ff0);
+            font-weight: var(--fw1);
+            line-height: var(--lh4);
+            letter-spacing: var(--ls0);
+          }
+        </style>
+      </div>
+      <div class="css_buttons w-embed">
+        <style>
+          /* Buttons */
+          .btn-cta,
+          .btn-link,
+          .link,
+          .btn-label {
+            font-size: 1.125rem;
+            line-height: 1.25rem;
+            font-weight: var(--fw2);
+            letter-spacing: var(--ls2);
+          }
+
+          /* Buttons */
+          .btn-cta {
+            text-decoration: none;
+            border-radius: 100vw;
+            overflow: hidden;
+            text-align: center;
+            will-change: transform;
+            transform: translateZ(0);
+            transition: transform 0.4s;
+          }
+
+          .btn-cta:hover {
+            transform: scaleX(1.02);
+            transition: transform 0.6s cubic-bezier(0.34, 5.56, 0.64, 1);
+          }
+
+          /* Ripple effect styles */
+          .btn-cta__ripple {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            overflow: hidden;
+            transform: translateZ(0);
+            border-radius: inherit;
+          }
+
+          .btn-cta__ripple span {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transform: translateY(101%);
+            background: currentColor;
+            border-radius: 50% 50% 0 0;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+              border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+          }
+
+          /* Ripple effect on hover (for fine pointer devices) */
+          @media (pointer: fine) {
+            .btn-cta:hover .btn-cta__ripple span {
+              border-radius: 0;
+              transform: translateY(0);
+              transition-duration: 0.5s, 0.9s;
+            }
+          }
+
+          /* Title styles */
+          .btn-cta__title {
+            position: relative;
+            display: block;
+            padding: 0 0.16em 0 0;
+            overflow: hidden;
+            z-index: 2;
+            color: var(--brand--white);
+          }
+
+          .btn-cta__title span {
+            display: block;
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+          }
+
+          .btn-cta__title span:after {
+            content: attr(data-text);
+            display: block;
+            position: absolute;
+            top: 110%;
+            left: 0;
+            right: 0;
+          }
+
+          /* Title effect on hover (for fine pointer devices) */
+          @media (hover: hover) {
+            .btn-cta:hover .btn-cta__title span {
+              transform: translateY(-110%);
+            }
+          }
+
+          .cta-primary {
+            background-color: var(--interaction--primary);
+          }
+
+          .cta-primary .btn-cta__ripple span {
+            background-color: #542322;
+          }
+
+          .btn-filled {
+            background-color: var(--interaction--secondary);
+          }
+
+          .btn-filled .btn-cta__ripple span {
+            background-color: var(--brand--black);
+          }
+
+          .btn-soft {
+            background-color: rgba(123, 123, 123, 0.24);
+          }
+
+          .btn-soft .btn-cta__ripple span {
+            background-color: rgba(123, 123, 123, 0.34);
+          }
+
+          .btn-soft .btn-cta__title {
+            color: var(--interaction--secondary);
+          }
+
+          .btn-outline {
+            border: 1px solid var(--brand--boulder);
+          }
+
+          .btn-outline .btn-cta__ripple span {
+            background-color: var(--brand--black);
+          }
+
+          .btn-outline .btn-cta__title {
+            color: var(--interaction--secondary);
+          }
+
+          .btn-outline .btn-cta__title span:after {
+            color: var(--brand--white);
+          }
+
+          .btn-outline.btn--inverse {
+            border-color: var(--brand--white) !important;
+          }
+
+          .btn-outline.btn--inverse .btn-cta__ripple span {
+            background-color: var(--brand--white);
+          }
+
+          .btn-outline.btn--inverse .btn-cta__title {
+            color: var(--brand--white);
+          }
+
+          .btn-outline.btn--inverse .btn-cta__title span:after {
+            color: var(--interaction--secondary);
+          }
+
+          .btn-soft.btn--inverse {
+            background-color: rgba(123, 123, 123, 0.4);
+          }
+
+          .btn-soft.btn--inverse .btn-cta__ripple span {
+            background-color: rgba(123, 123, 123, 0.5);
+          }
+
+          .btn-soft.btn--inverse .btn-cta__title {
+            color: var(--brand--white);
+          }
+
+          .btn-link {
+            color: var(--interaction--secondary);
+            position: relative;
+          }
+
+          .btn-link:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -2px;
+            height: 1px;
+            transform: scaleX(0);
+            transform-origin: right center;
+            background: currentColor;
+            transition: transform 0.5s, transform-origin 0s;
+          }
+
+          .btn-link em {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            padding: 0 0.01em 0.04em 0;
+          }
+
+          .btn-link span {
+            display: inline-block;
+            color: transparent;
+            transition: transform 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+          }
+
+          .btn-link span:after,
+          .btn-link span:before {
+            content: attr(data-text);
+            display: block;
+            position: absolute;
+            color: #000;
+          }
+
+          .btn-link span:before {
+            top: 0;
+            transform: skewY(0);
+            transform-origin: right bottom;
+            transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+          }
+
+          .btn-link span:after {
+            top: 105%;
+            transform: skewY(7deg);
+            transform-origin: left top;
+            transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+          }
+
+          .btn-link:focus span,
+          .btn-link:hover span {
+            transform: translateY(-105%);
+          }
+
+          .btn-link:focus span:before,
+          .btn-link:hover span:before {
+            transform: skewY(7deg);
+          }
+
+          .btn-link:focus span:after,
+          .btn-link:hover span:after {
+            transform: skewY(0);
+          }
+
+          @media (pointer: coarse) {
+            .btn-link:focus span,
+            .btn-link:hover span,
+            .btn-link:focus span:before,
+            .btn-link:hover span:before,
+            .btn-link:focus span:after,
+            .btn-link:hover span:after {
+              transform: none;
+            }
+          }
+
+          .link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-start;
+            transform-origin: left bottom;
+            transition: scaleX 0.8s cubic-bezier(0.694, 0, 0.335, 1),
+              color 0.8s cubic-bezier(0.694, 0, 0.335, 1);
+            will-change: transform;
+            line-height: 2rem;
+          }
+
+          .link:after {
+            position: absolute;
+            content: "";
+            display: block;
+            left: 0;
+            bottom: -2px;
+            width: 100%;
+            height: 2px;
+            background-color: #000;
+            transform: scaleX(0);
+            transform-origin: 100% 50%;
+            transition: transform 0.4s cubic-bezier(0.694, 0, 0.335, 1);
+            will-change: transform, color;
+            z-index: 2;
+          }
+
+          .link:hover:after {
+            transform: scaleX(1);
+            transform-origin: 0 50%;
+            transition-timing-function: ease;
+          }
+
+          .link em {
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: -0.2em;
+          }
+
+          .link em svg {
+            width: 1em;
+            height: 1em;
+          }
+
+          .link aside {
+            margin-left: 0.25rem;
+          }
+
+          .link.has-border {
+            border-bottom: 2px solid #c4c4c4;
+          }
+
+          @media (hover: hover) {
+            .link__text:hover {
+              animation: underlineSlideOut 0.5s cubic-bezier(0.694, 0, 0.335, 1)
+                forwards;
+            }
+          }
+
+          /* hover button label */
+          .btn-label {
+            transition: all 0.4s;
+            display: block;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+          }
+
+          .btn-label:hover {
+            background-color: var(--brand--cod-gray-cloud);
+          }
+
+          .btn-cta.cta-primary,
+          .btn-cta.btn-filled {
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 0.602187px 0.602187px -1.25px,
+              rgba(0, 0, 0, 0.16) 0px 2.28853px 2.28853px -2.5px,
+              rgba(0, 0, 0, 0.063) 0px 10px 10px -3.75px,
+              rgba(0, 0, 0, 0.25) 0px 1px 3px 0px;
+          }
+        </style>
+      </div>
+      <div class="css_style w-embed">
+        <style>
+          /* projects */
+          .project .project-cover img {
+            opacity: 0;
+            transition: all 1s cubic-bezier(0.67, 0, 0.285, 1),
+              opacity 0s linear;
+          }
+
+          .project .project-cover img:first-child {
+            opacity: 1;
+          }
+
+          .project .project-cover img.style-show {
+            opacity: 1;
+          }
+
+          .project-text__description:before {
+            content: "—";
+            margin: 0 0.25em;
+          }
+
+          /* pricing gradient */
+          .pricing-gradient-1 {
+            background: linear-gradient(
+              180deg,
+              #fff 0%,
+              rgba(255, 255, 255, 0.4) 100%
+            );
+          }
+
+          /* marquee  */
+          .marquee {
+            -webkit-mask-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0) 0%,
+              rgb(0, 0, 0) 25%,
+              rgb(0, 0, 0) 75%,
+              rgba(0, 0, 0, 0) 100%
+            );
+            mask-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0) 0%,
+              rgb(0, 0, 0) 25%,
+              rgb(0, 0, 0) 75%,
+              rgba(0, 0, 0, 0) 100%
+            );
+          }
+
+          /* accordion JS */
+          o .faq {
+            transition: all 0.5s cubic-bezier(0.1, 0, 0, 1);
+          }
+
+          .js-faq-body {
+            display: none;
+          }
+
+          .faq-body {
+            --grid-column-width: calc((100vw - 520px) / 12);
+            padding: 0 var(--grid-column-width) 32px 0;
+          }
+
+          .faq-item.active .faq-btn-line.horizontal {
+            transform: rotate(180deg);
+          }
+
+          .faq-item.active .faq-btn {
+            background-color: #2c2c2f;
+            color: #fff;
+          }
+
+          .faq-item.active .faq-btn-line {
+            background-color: #ffffff;
+          }
+
+          .footer-btn .footer-btn-icon-svg {
+            transition: all 0.3s cubic-bezier(0.1, 0, 0, 1);
+          }
+
+          .footer-btn:hover .footer-btn-icon-svg {
+            transform: rotate(0deg);
+          }
+
+          /* Responsive padding for showreel on large screens */
+          @media screen and (min-width: 1921px) {
+            .showreel {
+              padding: 0 var(--responsive_desktop);
+            }
+          }
+
+          /* Bottom-bar styles */
+          .bottom-menu .menu_link {
+            font-weight: var(--fw2);
+          }
+
+          /* Waving animation */
+          .wave {
+            animation-name: wave-animation;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+            transform-origin: 70% 70%;
+            display: inline-block;
+          }
+
+          @keyframes wave-animation {
+            0% {
+              transform: rotate(0deg);
+            }
+
+            10% {
+              transform: rotate(14deg);
+            }
+
+            20% {
+              transform: rotate(-8deg);
+            }
+
+            30% {
+              transform: rotate(14deg);
+            }
+
+            40% {
+              transform: rotate(-4deg);
+            }
+
+            50% {
+              transform: rotate(10deg);
+            }
+
+            60% {
+              transform: rotate(0deg);
+            }
+
+            100% {
+              transform: rotate(0deg);
+            }
+          }
+
+          /* Social link */
+          .my-social-link {
+            transition: background 0.4s cubic-bezier(0.4, 0, 0, 1);
+          }
+
+          .my-social-link:hover {
+            background: rgba(123, 123, 123, 0.32);
+          }
+
+          .my-social-link .hover-effect-link {
+            opacity: 0;
+            transition: opacity 0.4s ease;
+          }
+
+          .my-social-link:hover .hover-effect-link {
+            opacity: 1;
+          }
+
+          /* Plans grid 
+  .plans {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 32px) / 3));
+  }*/
+
+          .card-plan-quote {
+            color: var(--brand--white);
+          }
+
+          /* section border-radius  */
+          [class*="__filled"],
+          .footer-primary {
+            border-radius: 2rem;
+          }
+
+          /* footer links  */
+          .footer .link {
+            color: var(--content--tertiary);
+          }
+
+          .footer .link:hover {
+            color: var(--content--secondary);
+          }
+
+          /* Shop grid - resources page  */
+          .card-product:hover .card-product__cta {
+            color: var(--cta--secondary);
+          }
+
+          .card-product {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0, 1);
+            --card-pad-x: clamp(20px, 3vw, 24px);
+            --card-pad-y: clamp(10px, 3vw, 20px);
+          }
+
+          .card-product__row:first-child {
+            padding-top: var(--card-pad-x);
+            padding-bottom: var(--card-pad-x);
+          }
+
+          .card-product__row {
+            padding: var(--card-pad-y) var(--card-pad-x);
+          }
+
+          .card-product__figure img {
+            transition: opacity 0.4s ease;
+          }
+
+          .card-product:hover .card-product__figure img {
+            opacity: 0.9;
+          }
+
+          .card-shop__arrow {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0, 1);
+          }
+
+          @media (hover: hover) {
+            .card-product:hover {
+              border: 1px solid #000;
+            }
+
+            .card-product:hover .card-shop__arrow {
+              transform: rotate(-45deg);
+            }
+          }
+
+          /* resources page */
+          .resources-bg {
+            background-color: transparent;
+            background-image: linear-gradient(
+                rgb(245, 245, 245) 2px,
+                transparent 2px
+              ),
+              linear-gradient(90deg, rgb(245, 245, 245) 2px, transparent 2px),
+              linear-gradient(rgb(245, 245, 245) 1px, transparent 1px),
+              linear-gradient(
+                90deg,
+                rgb(245, 245, 245) 1px,
+                rgb(253, 253, 252) 1px
+              );
+            background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+            background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+          }
+
+          .resources-bg__fade {
+            background: linear-gradient(
+              0deg,
+              #fafafa 0%,
+              rgba(22, 22, 22, 0) 100%
+            );
+          }
+
+          /* product page */
+          .product-row > .btn-cta .btn-cta__title span:after {
+            left: 0;
+            right: 0;
+          }
+
+          .product-row:last-child {
+            border: 0;
+          }
+
+          .card-product__row .product-amount {
+            border: 0;
+            padding-bottom: 0;
+          }
+
+          .assets-list__item > .svgsprite-24 {
+            flex: none;
+          }
+
+          .faq-item.faq-item--simple:first-child {
+            border-top: 0;
+          }
+
+          .swiper-button-next:after,
+          .swiper-button-prev:after {
+            display: none;
+          }
+        </style>
+      </div>
+      <div class="page_code_helper w-embed">
+        <style>
+          .hidden {
+            display: none !important;
+          }
+
+          .no-select {
+            pointer-events: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+
+          :where([class*="svgsprite"]) {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            fill: currentColor;
+          }
+
+          .swatch {
+            display: flex;
+            height: 6.25rem;
+            margin-bottom: 1.5rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.125rem;
+            border: 1px dashed #cecfd0;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+
+          .txt-left {
+            text-align: left;
+          }
+
+          .txt-right {
+            text-align: right;
+          }
+
+          .txt-center {
+            text-align: center;
+          }
+
+          .visible-sm {
+            display: none;
+          }
+
+          @media (max-width: 768px) {
+            .visible-md {
+              display: none;
+            }
+
+            .visible-sm {
+              display: inherit;
+            }
+          }
+
+          .flex {
+            display: flex;
+          }
+
+          .basis-0 {
+            flex-basis: 0px;
+          }
+
+          .flex-center {
+            justify-content: center;
+          }
+
+          .full-btn--inner > .btn-cta {
+            width: 100%;
+          }
+
+          .full-btn--inner > .btn-cta .btn-cta__title span:after {
+            left: 0;
+            right: 0;
+          }
+        </style>
+      </div>
+      <div class="css_plugins w-embed">
+        <style>
+          .mf-cursor {
+            @media (hover: hover) {
+              display: block;
+            }
+
+            @media (hover: none) {
+              display: none;
+            }
+          }
+
+          .swiper {
+            width: 100%;
+            height: 100%;
+          }
+
+          .swiper-slide.gallery-element--thumbs-slide.swiper-slide-thumb-active {
+            outline: 1px solid #2c2c2f;
+          }
+
+          .swiper-button--icon {
+            width: 3.75rem !important;
+            height: 3.75rem !important;
+          }
+
+          .autoplay-progress {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            z-index: 10;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #000;
+          }
+
+          .autoplay-progress svg {
+            --progress: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            stroke-width: 1.5px;
+            stroke: #ffffff;
+            fill: none;
+            stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+            stroke-dasharray: 125.6;
+            transform: rotate(-90deg);
+          }
+
+          .autoplay-progress span {
+            visibility: hidden;
+          }
+
+          .client-testimonial .client-testimonial--inner {
+            overflow: hidden;
+            transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1),
+              opacity 0.9s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+            opacity: 0;
+          }
+
+          .client-testimonial--slide .swiper-slide-prev {
+            opacity: 0;
+          }
+
+          .client-testimonial .swiper-slide-active .client-testimonial--inner {
+            opacity: 1;
+          }
+
+          .client-testimonial .testimonial-root {
+            height: auto !important;
+            z-index: 9;
+          }
+
+          .client-testimonial .btn-root {
+            width: 60px !important;
+            height: 60px !important;
+          }
+
+          .client-testimonial .swiper-button-prev,
+          .client-testimonial .swiper-button-next {
+            position: relative;
+            top: unset;
+            left: unset;
+            right: unset;
+            margin-top: 0;
+            z-index: 2;
+            color: #ffffff;
+          }
+        </style>
+      </div>
+      <div class="css_responsive w-embed">
+        <style>
+          @media screen and (min-width: 991px) {
+            [class*="__filled"],
+            .footer-primary {
+              border-radius: 3.75rem;
+            }
+
+            /* resources page
+    .expertise{ display: flex; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; }
+    .expertise-list--1{ grid-row: 1 / span 1; grid-column: 1 / span 2;}
+    .expertise-list--2 { grid-row: 1 / span 1; grid-column: 3 / span 1;}
+    .expertise-list--3 { grid-row: 2 / span 1; grid-column: 1 / span 1; }
+    .expertise-list--4 { grid-row: 2 / span 1;grid-column: 2 / span 2; }
+    */
+          }
+
+          @media screen and (min-width: 1280px) {
+            .container {
+              padding-right: var(--responsive-desktop);
+              padding-left: var(--responsive-desktop);
+            }
+
+            .showreel {
+              margin-top: var(--space--s-56);
+            }
+
+            .showreel.container {
+              padding-left: 6vw;
+              padding-right: 6vw;
+            }
+
+            .home-hero-headline {
+              padding-top: 25vh;
+            }
+
+            .hero-headline {
+              max-width: 1100px;
+            }
+
+            .products_grid {
+              margin-left: -3.5rem;
+              margin-right: -3.5rem;
+            }
+
+            .projects_grid-item {
+              padding-right: var(--space--s-56);
+              padding-left: var(--space--s-56);
+            }
+
+            .c-service-filled.bottom {
+              bottom: -8rem;
+            }
+
+            [class*="__filled"],
+            .footer-primary {
+              border-radius: 8rem;
+            }
+          }
+
+          @media screen and (max-width: 1280px) {
+            .plan-card.card-plan-quote {
+              flex-shrink: 0;
+              flex-basis: auto;
+              width: 100%;
+            }
+          }
+        </style>
+        <!--<link href="http://127.0.0.1:5500/coding/css/local.css" rel="stylesheet" type="text/css"/>-->
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="nav-strip">
+        <div class="nav-grid">
+          <div class="nav-logo">
+            <a href="/" aria-current="page" class="nav-logo w-inline-block w--current"><img src="assets/img/logo_jcesar.svg" loading="lazy" alt="" class="nav-logo__img"/></a>
+          </div>
+          <div class="nav-col">
+            <address class="menu-list">
+              <a href="tel:+5212226799344" class="btn btn-cta btn-outline btn-small w-inline-block">
+                <div class="btn-cta__ripple"><span></span></div>
+                <div class="btn-cta__title">
+                  <span data-text="Llámame">Llámame</span>
+                </div>
+              </a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page_wrap">
+      <section id="home" class="hero-header">
+        <div class="container">
+          <div class="hero-header__content">
+            <div data-scroll-reveal="" class="section-caption d-flex relative">
+              <div class="wave">
+                <div>👋</div>
+              </div>
+              <div class="pl-8-2 fw2">Hola, soy Julio César</div>
+            </div>
+            <div data-scroll-reveal="" class="font-s-h0">
+              <div class="hero-headline">
+                <div class="word">Desarrollador Front-end, & diseñador gráfico/web</div>
+                <div class="headline-img"></div>
+              </div>
+            </div>
+            <div data-scroll-reveal="" class="copy-body is-align-center">
+              <p class="hero-subhead font-s-p3">
+                <span class="new-line">Diseñador web con una pasión por crear experiencias digitales innovadoras y visualmente atractivas. Con una sólida comprensión de los principios de diseño UX/UI y una habilidad técnica en desarrollo web, me esfuerzo por combinar la estética con la funcionalidad en cada proyecto. Soy un colaborador proactivo, capaz de trabajar en equipo y adaptarme a los cambios rápidos del entorno digital.</span>
+              </p>
+            </div>
+            <div data-scroll-reveal="" class="btn-group mt-40">
+              <a href="#how-it-works" class="btn btn-cta cta-primary w-inline-block">
+                <div class="btn-cta__ripple"><span></span></div>
+                <div class="btn-cta__title"><span data-text="Proceso">Proceso</span></div> 
+              </a>
+              <a href="#proyects" class="btn btn-cta btn-soft w-inline-block">
+                <div class="btn-cta__ripple"><span></span></div>
+                <div class="btn-cta__title"><span data-text="Proyectos">Proyectos</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="showreel container">
+          <div data-scroll-reveal="" class="showreel-container">
+            <div class="showreel-container__inner">
+              <div data-delay="2000" data-animation="slide" class="slider no-select w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="0" data-duration="0" data-infinite="true">
+                <div class="mask w-slider-mask">
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-1-1.jpg" loading="eager" sizes="100vw" srcset="
+                    assets/img/showreel-1-2.jpg 500w, 
+                    assets/img/showreel-1-3.jpg 800w, 
+                    assets/img/showreel-1-4.jpg 1080w, 
+                    assets/img/showreel-1-5.jpg 1600w, 
+                    assets/img/showreel-1-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-2-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-2-2.jpg 500w,
+                      assets/img/showreel-2-3.jpg 800w,
+                      assets/img/showreel-2-4.jpg 1080w,
+                      assets/img/showreel-2-5.jpg 1600w,
+                      assets/img/showreel-2-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-3-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-3-2.jpg 500w,
+                      assets/img/showreel-3-3.jpg 800w,
+                      assets/img/showreel-3-4.jpg 1080w,
+                      assets/img/showreel-3-5.jpg 1600w,
+                      assets/img/showreel-3-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-4-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-4-2.jpg 500w,
+                      assets/img/showreel-4-3.jpg 800w,
+                      assets/img/showreel-4-4.jpg 1080w,
+                      assets/img/showreel-4-5.jpg 1600w,
+                      assets/img/showreel-4-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-5-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-5-2.jpg 500w,
+                      assets/img/showreel-5-3.jpg 800w,
+                      assets/img/showreel-5-4.jpg 1080w,
+                      assets/img/showreel-5-5.jpg 1600w,
+                      assets/img/showreel-5-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-6-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-6-2.jpg 500w,
+                      assets/img/showreel-6-3.jpg 800w,
+                      assets/img/showreel-6-4.jpg 1080w,
+                      assets/img/showreel-6-5.jpg 1600w,
+                      assets/img/showreel-6-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-7-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-7-2.jpg 500w,
+                      assets/img/showreel-7-3.jpg 800w,
+                      assets/img/showreel-7-4.jpg 1080w,
+                      assets/img/showreel-7-5.jpg 1600w,
+                      assets/img/showreel-7-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>                  
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-8-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-8-2.jpg 500w,
+                      assets/img/showreel-8-3.jpg 800w,
+                      assets/img/showreel-8-4.jpg 1080w,
+                      assets/img/showreel-8-5.jpg 1600w,
+                      assets/img/showreel-8-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                  <div class="slide w-slide">
+                    <img src="assets/img/showreel-9-1.jpg" loading="eager" sizes="100vw" srcset="
+                      assets/img/showreel-9-2.jpg 500w,
+                      assets/img/showreel-9-3.jpg 800w,
+                      assets/img/showreel-9-4.jpg 1080w,
+                      assets/img/showreel-9-5.jpg 1600w,
+                      assets/img/showreel-9-1.jpg 2000w" alt="jcesar-project" class="showreel-img"/>
+                  </div>
+                </div>
+                <div class="hidden w-slider-arrow-left">
+                  <div class="is_hidden w-icon-slider-left"></div>
+                </div>
+                <div class="hidden w-slider-arrow-right">
+                  <div class="is_hidden w-icon-slider-right"></div>
+                </div>
+                <div class="hidden w-slider-nav"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-scroll-reveal="" class="marquee marquee-new">
+          <div class="client-partner-headline ff1 font-s-p2">A lo largo de los años, <span class="g-new-line">he colaborado con marcas increíbles.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="c-service">
+        <div class="c-service__filled bottom c-soft-white"></div>
+        <div class="block">
+          <div class="container">
+            <div class="c-block__top">
+              <div data-scroll-reveal="" class="text-eyebrow">
+                <svg class="svgsprite svg-s-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2H10V7.17157L6.34315 3.51472L3.51472 6.34314L7.17158 10H2V14H7.17157L3.51472 17.6568L6.34315 20.4853L10 16.8284V22H14V16.8284L17.6569 20.4853L20.4853 17.6569L16.8284 14H22V10H16.8284L20.4853 6.34314L17.6569 3.51471L14 7.17157V2Z" fill="currentColor"></path>
+                </svg>
+                <div class="pl-8 fw2">¿Cómo funciona?<br /></div>
+              </div>
+              <div class="block-header block-header--modifier">
+                <h2 data-scroll-reveal="">
+                  <span class="new-line">El proceso creativo</span>
+                  <span class="new-line">es simple y directo.</span>
+                </h2>
+              </div>
+            </div>
+            <div class="c-block__bottom">
+              <div class="thinking-wrapper">
+                <div data-w-id="8d5ee502-6f41-3b0e-bba2-ab3931148179" data-is-ix2-target="1" class="thinking-wrapper-lottie" data-animation-type="lottie" data-src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/65a189cf4ef7bcc065f744b5_thiking-lottie-v2.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="10" data-duration="0"></div>
+              </div>
+              <div class="work-areas">
+                <p data-scroll-reveal="" class="font-s-h5">
+                  <span class="highlight-line fw2 txt-primary">Comprometido a diseñar contigo!</span>Inicio cada proyecto con una escucha activa para entender tus necesidades. A partir de ahí, tu proyecto se divide en solicitudes manejables y altamente enfocadas. Este enfoque me asegura dedicar el tiempo, la atención y el cuidado necesarios a cada tarea.</p>
+              </div>
+              <div data-scroll-reveal="" class="simple-step">
+                <div class="simple-step-block">
+                  <div class="simple-step-lottie" data-w-id="3aaf97e1-3fff-3885-b0fc-ee1e1731212a" data-animation-type="lottie" data-src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/654fa7c15cc9f1e795bb9529_unlimted-request.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2" data-duration="0">
+                  </div>
+                  <div class="simple-step-content">
+                    <h5 class="mb-16">Planificación y Análisis</h5>
+                    <div class="u-fw-medium">Se establecen los objetivos del sitio web, como sus funciones principales, público objetivo y resultados esperados.</div>
+                  </div>
+                </div>
+                <div class="simple-step-block">
+                  <div class="simple-step-lottie" data-w-id="515e650f-c119-826f-8770-a382055e73ab" data-animation-type="lottie" data-src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/655097f7746087a0082c2a85_fast-work.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1.5" data-duration="0">
+                  </div>
+                  <div class="simple-step-content">
+                    <h5 class="mb-16">Diseño</h5>
+                    <div class="u-fw-medium">Se elaboran esquemas visuales básicos y se desarrolla la apariencia visual del sitio web, incluyendo la selección de colores, tipografía, imágenes y otros elementos gráficos.</div>
+                  </div>
+                </div>
+                <div class="simple-step-block">
+                  <div class="simple-step-lottie" data-w-id="dd13059c-ff8a-766c-a71e-08ab106983f7" data-animation-type="lottie" data-src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/6550c81033787fdcba8bd61b_revisions.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3" data-duration="0">
+                  </div>
+                  <div class="simple-step-content">
+                    <h5 class="mb-16">Desarrollo</h5>
+                    <div class="u-fw-medium">Se escribe el código necesario para construir el sitio. Se implementan características específicas, y se realizan pruebas exhaustivas de uso.</div>
+                  </div>
+                </div>
+                <div class="simple-step-block">
+                  <div class="simple-step-lottie" data-w-id="a5ba2e7b-135a-340c-4a40-57bc8a63cf9d" data-animation-type="lottie" data-src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/654fcc1a8009cb2c99f9d328_design-quality.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3" data-duration="0">
+                  </div>
+                  <div class="simple-step-content">
+                    <h5 class="mb-16">Lanzamiento y Mantenimiento</h5>
+                    <div class="u-fw-medium">Se carga el sitio web para que esté accesible en línea. Se realizan actualizaciones periódicas para corregir errores.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="what-we-do" class="c-skills">
+        <div class="c-skills__filled c-cod-gray-cloud"></div>
+        <div class="block">
+          <div class="container">
+            <div class="c-block__top">
+              <div data-scroll-reveal="" class="text-eyebrow">
+                <svg class="svgsprite svg-s-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2H10V7.17157L6.34315 3.51472L3.51472 6.34314L7.17158 10H2V14H7.17157L3.51472 17.6568L6.34315 20.4853L10 16.8284V22H14V16.8284L17.6569 20.4853L20.4853 17. 6569L16.8284 14H22V10H16.8284L20.4853 6.34314L17.6569 3.51471L14 7.17157V2Z" fill="currentColor"></path>
+                </svg>
+                <div class="pl-8 fw2">Servicios<br /></div>
+              </div>
+              <div class="block-header block-header--modifier">
+                <h2 data-scroll-reveal="">Un desglose<br />de lo que hago</h2>
+                <p data-scroll-reveal="" class="font-s-p2">
+                  <span class="new-line">"La solución perfecta para tu proyecto en mente, ya sea un logo, </span>una página web, UI/UX u otro tipo de necesidad."</p>
+              </div>
+            </div>
+            <div class="c-block__bottom">
+              <svg class="svgsprite svg-arrow-down" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 102 110" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M50.7033 62.9562C50.5986 72.6396 47.6532 78.5514 43.9298 81.7563C40.2067 84.961 35.4143 85.7182 31.0205 84.5374C26.6095 83.352 22.7232 80.2416 20.8756 75.8688C19.0518 71.5525 19.1048 65.7341 23.088 58.8925C28.1466 50.2037 38.1867 45.3297 49.0246 44.8123C50.0429 50.1115 50.7788 55.9713 50.7033 62.9562ZM19.6311 56.88C25.4208 46.9356 36.4564 41.5813 48.2007 40.8645C48.149 40.6332 48.0971 40.4029 48.0449 40.1734C47.6845 38.5888 47.3071 37.0271 46.9324 35.4768C45.7803 30.7098 44.6543 26.0506 44.1297 21.1679C43.4815 15.1346 43.7311 8.6951 45.8341 0.931319L49.6949 1.97713C47.7297 9.23231 47.5084 15.1705 48.1068 20.7406C48.6011 25.341 49.6415 29.6487 50.7759 34.3452L50.776 34.3454C51.1608 35.9387 51.5565 37.5768 51.9453 39.2863C52.059 39.7865 52.1718 40.2914 52.283 40.8015C57.7823 40.9653 63.3216 42.1295 68.4471 44.2989C77.2685 48.0325 85.0304 54.7791 89.4827 64.6819C93.5588 73.7479 94.7917 85.3017 91.7254 99.3537C92.0394 99.1703 92.3591 99.0031 92.6832 98.8513C95.7831 97.3996 99.0891 97.4474 101.237 97.9321L100.356 101.834C98.8757 101.5 96.5082 101.477 94.3796 102.474C92.366 103.417 90.3678 105.358 89.5627 109.392L85.6401 108.609C86.4459 104.571 85.3639 101.894 83.8475 100.12C82.2583 98.2603 80.0647 97.255 78.5871 96.9215L79.4676 93.0197C81.6181 93.5049 84.6355 94.8851 86.8883 97.521C87.2025 97.8886 87.4996 98.2783 87.776 98.6902C90.7497 85.2207 89.5108 74.4991 85.8344 66.3221C81.8388 57.4349 74.8812 51.3656 66.888 47.9825C62.4539 46.1058 57.7506 45.0662 53.0972 44.8225C54.0769 50.1136 54.7785 56.0189 54.703 62.9995C54.59 73.4512 51.3864 80.6157 46.5393 84.7879C41.6918 88.9604 35.4923 89.8811 29.9824 88.4003C24.4897 86.9242 19.5606 83.0336 17.191 77.4256C14.7976 71.7612 15.1255 64.619 19.6311 56.88Z" fill="currentColor"></path>
+              </svg>
+              <div class="work-areas">
+                <div data-scroll-reveal="">
+                  <h1 class="work-areas-list">
+                    <span class="work-areas-list__item skill-1"><div>Diseño Web</div></span>
+                    <span class="work-areas-list__item skill-2"><div class="svg_span-arrow"><img src="assets/img/long-arrow.svg" loading="lazy" alt="" class="svg-wrap__img"/></div><div>Branding</div></span>
+                    <span class="work-areas-list__item skill-3"><div>Diseño Gráfico</div><div class="svg-wrap"><img src="assets/img/star.svg" loading="lazy" alt="" class="svg-wrap__img"/></div></span>
+                    <span class="work-areas-list__item skill-4"><div>UI/UX</div></span>
+                  </h1>
+                </div>
+              </div>
+              <div class="expertise">
+                <div class="expertise-list expertise-list--1">
+                  <div class="expertise-list__img">
+                    <img src="assets/img/webdesing-946.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 48vw, 25vw" srcset="
+                    assets/img/webdesing-500.png 500w,
+                    assets/img/webdesing-946.png 946w" alt="" class="skill-media-img"/>
+                  </div>
+                  <div class="expertise-list__content">
+                    <h5>Diseño Web.</h5>
+                    <div class="text-adjected font-s-p1">Diseño páginas web elegantes y responsivas para cualquier desafío empresarial.</div>
+                  </div>
+                </div>
+                <div class="expertise-list expertise-list--2">
+                  <div class="expertise-list__img">
+                    <img src="assets/img/ui-ux-946.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 48vw, 25vw" srcset="
+                      assets/img/ui-ux-500.png 500w,
+                      assets/img/ui-ux-946.png 946w" alt="" class="skill-media-img img-2"/>
+                  </div>
+                  <div class="expertise-list__content">
+                    <h5>UI/UX.</h5>
+                    <div class="text-adjected font-s-p1">
+                      <span>Diseño, perferciono tu aplicación, para que destaque por encima de la competencia.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="expertise-list expertise-list--3">
+                  <div class="expertise-list__img">
+                    <img src="assets/img/grafico-946.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 991px) 48vw, 25vw" srcset="
+                      assets/img/grafico-500.png 500w,
+                      assets/img/grafico-946.png 946w" alt="" class="skill-media-img img-3"/>
+                  </div>
+                  <div class="expertise-list__content">
+                    <h5>Diseño Gráfico</h5>
+                    <div class="text-adjected font-s-p1">Construimos sistemas de diseño robustos y cohesivos para una fácil escalabilidad.</div>
+                  </div>
+                </div>
+                <div class="expertise-list expertise-list--4">
+                  <div class="expertise-list__img">
+                    <img src="assets/img/consulting-946.png" loading="lazy" srcset="
+                      assets/img/consulting-500.png 500w,
+                      assets/img/consulting-800.png 800w,
+                      assets/img/consulting-946.png 946w" alt="" class="skill-media-img img-4"/>
+                  </div>
+                  <div class="expertise-list__content">
+                    <h5>Consultas</h5>
+                    <div class="text-adjected font-s-p1">Desmonto tu producto existente y te ayudo a optimizarlo para obtener mejores resultados.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="c-work">
+        <div class="block">
+          <div class="container">
+            <div class="c-block__top is--left">
+              <div data-scroll-reveal="" class="text-eyebrow">
+                <svg class="svgsprite svg-s-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M14 2H10V7.17157L6.34315 3.51472L3.51472 6.34314L7.17158 10H2V14H7.17157L3.51472 17.6568L6.34315 20.4853L10 16.8284V22H14V16.8284L17.6569 20.4853L20.4853 17.6569L16.8284 14H22V10H16.8284L20.4853 6.34314L17.6569 3.51471L14 7.17157V2Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <div class="pl-8 fw2">Trabajos<br /></div>
+              </div>
+              <div class="block-header block-header--modifier">
+                <h2 data-scroll-reveal="">Trabajos<br />Seleccionados</h2>
+                <p data-scroll-reveal="" class="font-s-p2"><span class="new-line">Ya sea que estés buscando un sitio web vibrante o un diseño de logo y branding, te ofrezco una calidad excepcional en todos mis servicios.</span></p>
+              </div>
+            </div>
+            <div class="projects">
+              <div class="products_grid">
+                <div class="project-grid-item">
+                  <div data-scroll-reveal="" class="projects_grid-item">
+                    <a data-cursor-text="" href="#" class="project w-inline-block">
+                      <div class="project-preview aspect-3">
+                        <div class="project-cover">
+                          <img src="assets/img/cover-work-1-1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                          assets/img/cover-work-1-2.jpg 500w,
+                          assets/img/cover-work-1-3.jpg 800w,
+                          assets/img/cover-work-1-4.jpg 1080w,
+                          assets/img/cover-work-1-1.jpg 1500w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-1-5.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                          assets/img/cover-work-1-6.jpg 500w,
+                          assets/img/cover-work-1-7.jpg 800w,
+                          assets/img/cover-work-1-8.jpg 1080w,
+                          assets/img/cover-work-1-5.jpg 1500w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-1-9.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                          assets/img/cover-work-1-10.jpg 500w,
+                          assets/img/cover-work-1-11.jpg 800w,
+                          assets/img/cover-work-1-12.jpg 1080w,
+                          assets/img/cover-work-1-9.jpg 1500w" alt="" class="project-image"/>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div data-scroll-reveal="" class="projects_grid-item">
+                    <a data-cursor-text="" href="#" target="_blank" class="project w-inline-block">
+                      <div class="project-preview aspect-2">
+                        <div class="project-cover">
+                          <img src="assets/img/cover-work-3-1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-3-2.jpg 500w,
+                            assets/img/cover-work-3-3.jpg 800w,
+                            assets/img/cover-work-3-1.jpg 1000w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-3-4.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-3-5.jpg 500w,
+                            assets/img/cover-work-3-6.jpg 800w,
+                            assets/img/cover-work-3-4.jpg 1000w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-3-7.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-3-9.jpg 500w,
+                            assets/img/cover-work-3-9.jpg 800w,
+                            assets/img/cover-work-3-9.jpg 1000w" alt="" class="project-image"/>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-grid-item">
+                  <div class="projects_grid-item project-grid-empty"></div>
+                  <div data-scroll-reveal="" class="projects_grid-item">
+                    <a data-cursor-text="" href="#" target="_blank" class="project w-inline-block">
+                      <div class="project-preview aspect-1">
+                        <div class="project-cover">
+                          <img src="assets/img/cover-work-2-1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-2-2.jpg 500w,
+                            assets/img/cover-work-2-3.jpg 800w,
+                            assets/img/cover-work-2-4.jpg 1080w,
+                            assets/img/cover-work-2-1.jpg 1500w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-2-5.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-2-6.jpg 500w,
+                            assets/img/cover-work-2-7.jpg 800w,
+                            assets/img/cover-work-2-8.jpg 1080w,
+                            assets/img/cover-work-2-5.jpg 1500w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-2-9.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-2-10.jpg 500w,
+                            assets/img/cover-work-2-11.jpg 800w,
+                            assets/img/cover-work-2-12.jpg 1080w,
+                            assets/img/cover-work-2-9.jpg 1500w" alt="" class="project-image"/>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div data-scroll-reveal="" class="projects_grid-item">
+                    <a data-cursor-text="" href="#" target="_blank" class="project w-inline-block">
+                      <div class="project-preview aspect-3">
+                        <div class="project-cover">
+                          <img src="assets/img/cover-work-4-1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-4-2.jpg 500w,
+                            assets/img/cover-work-4-3.jpg 800w,
+                            assets/img/cover-work-4-4.jpg 1080w,
+                            assets/img/cover-work-4-1.jpg 1500w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-4-4.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-4-5.jpg 500w,
+                            assets/img/cover-work-4-6.jpg 800w,
+                            assets/img/cover-work-4-4.jpg 1000w" alt="" class="project-image"/>
+                          <img src="assets/img/cover-work-4-7.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, 54vw" srcset="
+                            assets/img/cover-work-4-8.jpg 500w,
+                            assets/img/cover-work-4-9.jpg 800w,
+                            assets/img/cover-work-4-9.jpg 1000w" alt="" class="project-image"/>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-stripe">
+            <div class="btn-group flex-center">
+              <a href="#plans" target="_blank" class="btn btn-cta btn-filled w-inline-block">
+                <div class="btn-cta__ripple"><span></span></div>
+                <div class="btn-cta__title">
+                  <span data-text="Más Proyectos">Más Proyectos</span>
+                </div> 
+              </a>
+            </div>
+            <p class="short-para">"Sigue deslizando para ver todos los<br>proyectos en los que he trabajado."</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="plans" class="c-pricing">
+        <div class="pricing__filled color-dark-green"></div>
+        <div class="block">
+          <div class="container">
+            <div class="c-block__top">
+              <div data-scroll-reveal="" class="text-eyebrow">
+                <svg class="svgsprite svg-s-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2H10V7.17157L6.34315 3.51472L3.51472 6.34314L7.17158 10H2V14H7.17157L3.51472 17.6568L6.34315 20.4853L10 16.8284V22H14V16.8284L17.6569 20.4853L20.4853 17.6569L16.8284 14H22V10H16.8284L20.4853 6.34314L17.6569 3.51471L14 7.17157V2Z" fill="currentColor"></path>
+                </svg>
+                <div class="pl-8 fw2">Más Proyectos.<br /></div>
+              </div>
+              <div class="block-header block-header--modifier">
+                <h2 data-scroll-reveal="" class="txt-white">
+                  <span data-scroll-reveal="" class="text_white">Todos mis, </span ><span class="new-line">proyectos.</span>
+                </h2>
+                <p data-scroll-reveal="" class="u-text-large txt-secondary-inverse">Aquí tienes una lista de los proyectos más recientes en los que he trabajado en los últimos años.</p>
+              </div>
+            </div>
+            <div class="c-block__bottom">
+              <div class="plans">
+                <div class="plan-card plan-card--focus">
+                  <div class="plan-card__header">
+                    <div class="plan-col is-plan-header">
+                      <div class="plan-headline">
+                        <div class="plan-headline">
+                          <h4 class="plan-headline-title ls3">Diseño Web</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="plan-col">
+                      <div class="u-text-medium is-font-custom">Estos son algunos de los lenguajes que utilizo para programar páginas web: HTML, CSS, JS, PHP, entre otros.</div>
+                    </div>
+                    <div class="plan-col plan-list">
+                      <div class="plan-list">
+                        <div class="plan-list-inner pricing-gradient-1">
+                          <ul role="list" class="checklist">
+                            <a href="https://www.sipuebla.com/" target="_blank"><li class="featured-checklist">Spanish Institute of Puebla</li></a>
+                            <a href="https://suiteslaconcordia.com/" target="_blank"><li class="featured-checklist">Suites La Concordia</li></a>
+                            <a href="https://magytarot.mx/" target="_blank"><li class="featured-checklist">Magy Tarot</li></a>
+                            <a href="https://www.vanguardexperience.com/" target="_blank"><li class="featured-checklist">Vanguard Experience</li></a>
+                            <a href="https://tauri.mx/" target="_blank"><li class="featured-checklist">Tauri</li></a>
+                            <a href="https://leket.mx/" target="_blank"><li class="featured-checklist">Leket</li></a>
+                            <a href="https://livespanishteacher.com/" target="_blank"><li class="featured-checklist">Live Spanish Teacher</li></a>
+                            <a href="https://hablemosdefotos.com/" target="_blank"><li class="featured-checklist">Hablemos de Fotos</li></a>
+                            <a href="https://saldopago.com/" target="_blank"><li class="featured-checklist">Saldo Pago</li></a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="plan-card__footer">
+                    <div class="plan-col plan-footer">
+                      <div class="pricing-footer full-btn--inner">
+                        <a href="tel:+5212226799344" target="_blank" class="btn btn-cta btn-filled w-inline-block">
+                          <div class="btn-cta__ripple"><span></span></div>
+                          <div class="btn-cta__title">
+                            <span data-text="Agendemos una Cita">Agendemos una Cita</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="plan-card">
+                  <div class="plan-card__header">
+                    <div class="plan-col is-plan-header">
+                      <div class="plan-headline">
+                        <div class="plan-headline">
+                          <h4 class="plan-headline-title ls3">Diseño Web</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="plan-col">
+                      <div class="u-text-medium is-font-custom">Estos son algunos de los lenguajes que utilizo para programar páginas web: HTML, CSS, JS, PHP, entre otros.</div>
+                    </div>
+                    <div class="plan-col plan-list">
+                      <div class="plan-list">
+                        <div class="plan-list-inner pricing-gradient-1">
+                          <ul role="list" class="checklist">
+                            <a href="https://www.linetelc.com/" target="_blank"><li class="featured-checklist">Linetelc</li></a>
+                            <a href="https://laspreposiciones.com/" target="_blank"><li class="featured-checklist">Spanish Prepositions</li></a>
+                            <a href="https://spanishnewsnetwork.com/" target="_blank"><li class="featured-checklist">Spanish News Network</li></a>
+                            <a href="https://www.sipuebla.com/leyendas/" target="_blank"><li class="featured-checklist">Leyendas Mexicanas</li></a>
+                            <a href="https://livingmexico.com/" target="_blank"><li class="featured-checklist">Living México</li></a>
+                            <a href="https://www.sipuebla.com/leyendas/" target="_blank"><li class="featured-checklist">Spanish Phonetics</li></a>
+                            <a href="https://www.sipuebla.com/por-que-y-porque.htm" target="_blank"><li class="featured-checklist">Por qué y Porqué</li></a>
+                            <a href="https://porypara.com/" target="_blank"><li class="featured-checklist">Por y Para</li></a>
+                            <a href="https://spanishconjugator.com/" target="_blank"><li class="featured-checklist">Spanish Conjugator</li></a>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="plan-card__footer">
+                    <div class="plan-col plan-footer">
+                      <div class="pricing-footer full-btn--inner">
+                        <a href="tel:+5212226799344" target="_blank" class="btn btn-cta btn-filled w-inline-block">
+                          <div class="btn-cta__ripple"><span></span></div>
+                          <div class="btn-cta__title">
+                            <span data-text="Agendemos una Cita">Agendemos una Cita</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <br>
+
+      <section id="quick-intro" class="c-quickintro txt-white">
+        <div class="grid container hidden">
+          <div id="w-node-_9defb868-079c-2027-48fc-d967bcd164d6-cac88e63" class="adaswda"></div>
+          <div id="w-node-a5ec12ca-6ae3-ed7a-56c8-eff727e88851-cac88e63" class="adaswda"></div>
+        </div>
+        <div class="c-quickintro__filled"></div>
+        <div class="block">
+          <div class="container">
+            <div class="quickintro-grid">
+              <div class="quickintro-grid__item is-left">
+                <div data-scroll-reveal="" class="text-eyebrow is-left">
+                  <svg class="svgsprite svg-s-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2H10V7.17157L6.34315 3.51472L3.51472 6.34314L7.17158 10H2V14H7.17157L3.51472 17.6568L6.34315 20.4853L10 16.8284V22H14V16.8284L17.6569 20.4853L20.4853 17.6569L16.8284 14H22V10H16.8284L20.4853 6.34314L17.6569 3.51471L14 7.17157V2Z" fill="currentColor"></path>
+                  </svg>
+                  <div class="pl-8 fw2">Acerca de Mi<br/></div>
+                </div>
+                <h5 class="quickintro-headline lh2">Mi nombre es Julio César</h5>
+                <div class="quickintro-focus">
+                  <span class="quickintro-focus-area">
+                    <svg class="svgsprite svg-s-32" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                      <path d="M11.8201 4L14.4574 4L20 11.5L14.4574 19H11.8201L14.3956 15.5239C15.467 14.0772 16.2294 13.066 16.6827 12.4902L5 12.4902L5 10.4888L16.6827 10.4888C16.1332 9.78652 15.3709 8.7823 14.3956 7.47612L11.8201 4Z" fill="currentColor"></path>
+                    </svg>
+                    <span>Desarrollador front-end</span>
+                  </span>
+                  <span class="quickintro-focus-area">
+                    <svg class="svgsprite svg-s-32" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                      <path d="M11.8201 4L14.4574 4L20 11.5L14.4574 19H11.8201L14.3956 15.5239C15.467 14.0772 16.2294 13.066 16.6827 12.4902L5 12.4902L5 10.4888L16.6827 10.4888C16.1332 9.78652 15.3709 8.7823 14.3956 7.47612L11.8201 4Z" fill="currentColor"></path>
+                    </svg>
+                    <span>Diseñador Gráfico</span>
+                  </span>
+                  <span class="quickintro-focus-area">
+                    <svg class="svgsprite svg-s-32" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                      <path d="M11.8201 4L14.4574 4L20 11.5L14.4574 19H11.8201L14.3956 15.5239C15.467 14.0772 16.2294 13.066 16.6827 12.4902L5 12.4902L5 10.4888L16.6827 10.4888C16.1332 9.78652 15.3709 8.7823 14.3956 7.47612L11.8201 4Z" fill="currentColor"></path>
+                    </svg>
+                    <span>Diseñador Web</span>
+                  /span>
+                </div>
+              </div>
+              <div class="quickintro-grid__item is-right">
+                <div class="quickintro-hero">
+                  <img src="assets/img/jcesar-1.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 70vw, 76vw" srcset="
+                    assets/img/jcesar-2.png  500w,
+                    assets/img/jcesar-3.png  800w,
+                    assets/img/jcesar-4.png 1080w,
+                    assets/img/jcesar-1.png 1464w" alt="" class="quickintro-img"/>
+                </div>
+                <div class="quickintro-faizur">
+                  <h2 class="quickintro-faizur-hi txt-white">Heyo<br/>‍there!</h2>
+                  <div class="quickintro-faizur-about">
+                    <p>Con una trayectoria de 10+ años en el campo del diseño y desarrollo web, me he especializado en la creación de soluciones centradas en el usuario, con un enfoque particular en el Diseño Web Responsivo (RWD). Durante esta década de experiencia, he trabajado estrechamente con una variedad de empresas, comprendiendo y abordando sus necesidades específicas de manera efectiva.<br /><br />Mi enfoque no solo se limita a la creación visualmente atractiva de sitios web, sino que también me esfuerzo por comprender la esencia de cada empresa para poder traducirla en experiencias digitales significativas. Esto implica una combinación de habilidades técnicas creativas para garantizar que cada sitio web no solo sea estéticamente agradable, sino también funcional y orientado a resultados.<br /><br />Además, cuento con una sólida formación como diseñador gráfico, respaldada por más de 7 años de experiencia en agencias de publicidad. Esta experiencia me ha brindado una comprensión profunda de los principios fundamentales del diseño, así como la capacidad de trabajar en entornos dinámicos y exigentes.<br /><br />Mi pasión por el diseño web y gráfico me impulsa constantemente a buscar nuevas tendencias y tecnologías emergentes, manteniéndome siempre actualizado y adaptándome a los cambios en el panorama digital.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="quickintro-grid is-last">
+              <div class="quickintro-grid__item is-left">
+                <!--<h5 class="quickintro-subhead lh1">TEXTO DE DESCRIPCIÓN.</h5>-->
+              </div>
+              <div class="quickintro-grid__item is-right is-last">
+                <div class="quickintro-social-grid">
+                  <a href="mailto:jcesarg@me.com" target="_blank" class="my-social-link w-inline-block">
+                    <svg class="svgsprite svg-s-32 mb-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 80 80" fill="none">                      
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M66.097,12.089h-56.9C4.126,12.089,0,16.215,0,21.286v32.722c0,5.071,4.126,9.197,9.197,9.197h56.9 c5.071,0,9.197-4.126,9.197-9.197V21.287C75.295,16.215,71.169,12.089,66.097,12.089z M61.603,18.089L37.647,33.523L13.691,18.089 H61.603z M66.097,57.206h-56.9C7.434,57.206,6,55.771,6,54.009V21.457l29.796,19.16c0.04,0.025,0.083,0.042,0.124,0.065 c0.043,0.024,0.087,0.047,0.131,0.069c0.231,0.119,0.469,0.215,0.712,0.278c0.025,0.007,0.05,0.01,0.075,0.016 c0.267,0.063,0.537,0.102,0.807,0.102c0.001,0,0.002,0,0.002,0c0.002,0,0.003,0,0.004,0c0.27,0,0.54-0.038,0.807-0.102 c0.025-0.006,0.05-0.009,0.075-0.016c0.243-0.063,0.48-0.159,0.712-0.278c0.044-0.022,0.088-0.045,0.131-0.069 c0.041-0.023,0.084-0.04,0.124-0.065l29.796-19.16v32.551C69.295,55.771,67.86,57.206,66.097,57.206z" fill="currentColor"></path>                      
+                    </svg>
+                    <div class="my-social-stats fw2">Email</div>
+                    <div class="my-social-platform">jcesarg@me.com</div>
+                    <div class="hover-effect-link">
+                      <svg class="svgsprite svg-s-24 c-icon-inverse" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25H11.9431C9.87002 2.24999 8.23769 2.24997 6.96234 2.42144C5.65376 2.59737 4.60928 2.9661 3.78769 3.78769C2.9661 4.60928 2.59737 5.65376 2.42144 6.96234C2.24997 8.23769 2.24999 9.87002 2.25 11.9431V12V12.0569C2.24999 14.13 2.24997 15.7623 2.42144 17.0377C2.59737 18.3462 2.9661 19.3907 3.78769 20.2123C4.60928 21.0339 5.65376 21.4026 6.96234 21.5786C8.23769 21.75 9.87002 21.75 11.9431 21.75H12H12.0569C14.13 21.75 15.7623 21.75 17.0377 21.5786C18.3462 21.4026 19.3907 21.0339 20.2123 20.2123C21.0339 19.3907 21.4026 18.3462 21.5786 17.0377C21.75 15.7623 21.75 14.13 21.75 12.0569V12C21.75 11.5858 21.4142 11.25 21 11.25C20.5858 11.25 20.25 11.5858 20.25 12C20.25 14.1425 20.2484 15.674 20.0919 16.8378C19.9384 17.98 19.6481 18.6552 19.1516 19.1516C18.6552 19.6481 17.98 19.9384 16.8378 20.0919C15.674 20.2484 14.1425 20.25 12 20.25C9.85748 20.25 8.32603 20.2484 7.16221 20.0919C6.01997 19.9384 5.34478 19.6481 4.84835 19.1516C4.35192 18.6552 4.06164 17.98 3.90807 16.8378C3.75159 15.674 3.75 14.1425 3.75 12C3.75 9.85748 3.75159 8.32603 3.90807 7.16221C4.06164 6.01997 4.35192 5.34478 4.84835 4.84835C5.34478 4.35192 6.01997 4.06164 7.16221 3.90807C8.32603 3.75159 9.85748 3.75 12 3.75C12.4142 3.75 12.75 3.41421 12.75 3C12.75 2.58579 12.4142 2.25 12 2.25ZM12.4697 10.4697C12.1768 10.7626 12.1768 11.2374 12.4697 11.5303C12.7626 11.8232 13.2374 11.8232 13.5303 11.5303L20.25 4.81066V7.75C20.25 8.16421 20.5858 8.5 21 8.5C21.4142 8.5 21.75 8.16421 21.75 7.75V3C21.75 2.58579 21.4142 2.25 21 2.25H16.25C15.8358 2.25 15.5 2.58579 15.5 3C15.5 3.41421 15.8358 3.75 16.25 3.75H19.1893L12.4697 10.4697Z" fill="currentColor">
+                        </path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="assets/CV-JCPG.pdf" target="_blank" class="my-social-link w-inline-block">
+                    <svg class="svgsprite svg-s-32 mb-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 50 50" fill="none">                      
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.558,25.389c-0.067,0.176-0.155,0.328-0.264,0.455c-0.108,0.129-0.24,0.229-0.396,0.301 c-0.156,0.072-0.347,0.107-0.57,0.107c-0.313,0-0.572-0.068-0.78-0.203c-0.208-0.137-0.374-0.316-0.498-0.541 c-0.124-0.223-0.214-0.477-0.27-0.756c-0.057-0.279-0.084-0.564-0.084-0.852c0-0.289,0.027-0.572,0.084-0.853 c0.056-0.281,0.146-0.533,0.27-0.756c0.124-0.225,0.29-0.404,0.498-0.541c0.208-0.137,0.468-0.203,0.78-0.203 c0.271,0,0.494,0.051,0.666,0.154c0.172,0.105,0.31,0.225,0.414,0.361c0.104,0.137,0.176,0.273,0.216,0.414 c0.04,0.139,0.068,0.25,0.084,0.33h2.568c-0.112-1.08-0.49-1.914-1.135-2.502c-0.644-0.588-1.558-0.887-2.741-0.895 c-0.664,0-1.263,0.107-1.794,0.324c-0.532,0.215-0.988,0.52-1.368,0.912c-0.38,0.392-0.672,0.863-0.876,1.416 c-0.204,0.551-0.307,1.165-0.307,1.836c0,0.631,0.097,1.223,0.288,1.77c0.192,0.549,0.475,1.021,0.847,1.422 s0.825,0.717,1.361,0.949c0.536,0.23,1.152,0.348,1.849,0.348c0.624,0,1.18-0.105,1.668-0.312 c0.487-0.209,0.897-0.482,1.229-0.822s0.584-0.723,0.756-1.146c0.172-0.422,0.259-0.852,0.259-1.283h-2.593 C19.68,25.023,19.627,25.214,19.558,25.389z"/> <polygon points="26.62,24.812 26.596,24.812 25.192,19.616 22.528,19.616 25.084,28.184 28.036,28.184 30.713,19.616 28,19.616 "/> <path d="M33.431,0H5.179v45.057h34.699V6.251L33.431,0z M36.878,42.056H8.179V3h23.706v4.76h4.992L36.878,42.056L36.878,42.056z" fill="currentColor"></path>                      
+                    </svg>
+                    <div class="my-social-stats fw2">Resume</div>
+                    <div class="my-social-platform">CV Julio César</div>
+                    <div class="hover-effect-link">
+                      <svg class="svgsprite svg-s-24 c-icon-inverse" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25H11.9431C9.87002 2.24999 8.23769 2.24997 6.96234 2.42144C5.65376 2.59737 4.60928 2.9661 3.78769 3.78769C2.9661 4.60928 2.59737 5.65376 2.42144 6.96234C2.24997 8.23769 2.24999 9.87002 2.25 11.9431V12V12.0569C2.24999 14.13 2.24997 15.7623 2.42144 17.0377C2.59737 18.3462 2.9661 19.3907 3.78769 20.2123C4.60928 21.0339 5.65376 21.4026 6.96234 21.5786C8.23769 21.75 9.87002 21.75 11.9431 21.75H12H12.0569C14.13 21.75 15.7623 21.75 17.0377 21.5786C18.3462 21.4026 19.3907 21.0339 20.2123 20.2123C21.0339 19.3907 21.4026 18.3462 21.5786 17.0377C21.75 15.7623 21.75 14.13 21.75 12.0569V12C21.75 11.5858 21.4142 11.25 21 11.25C20.5858 11.25 20.25 11.5858 20.25 12C20.25 14.1425 20.2484 15.674 20.0919 16.8378C19.9384 17.98 19.6481 18.6552 19.1516 19.1516C18.6552 19.6481 17.98 19.9384 16.8378 20.0919C15.674 20.2484 14.1425 20.25 12 20.25C9.85748 20.25 8.32603 20.2484 7.16221 20.0919C6.01997 19.9384 5.34478 19.6481 4.84835 19.1516C4.35192 18.6552 4.06164 17.98 3.90807 16.8378C3.75159 15.674 3.75 14.1425 3.75 12C3.75 9.85748 3.75159 8.32603 3.90807 7.16221C4.06164 6.01997 4.35192 5.34478 4.84835 4.84835C5.34478 4.35192 6.01997 4.06164 7.16221 3.90807C8.32603 3.75159 9.85748 3.75 12 3.75C12.4142 3.75 12.75 3.41421 12.75 3C12.75 2.58579 12.4142 2.25 12 2.25ZM12.4697 10.4697C12.1768 10.7626 12.1768 11.2374 12.4697 11.5303C12.7626 11.8232 13.2374 11.8232 13.5303 11.5303L20.25 4.81066V7.75C20.25 8.16421 20.5858 8.5 21 8.5C21.4142 8.5 21.75 8.16421 21.75 7.75V3C21.75 2.58579 21.4142 2.25 21 2.25H16.25C15.8358 2.25 15.5 2.58579 15.5 3C15.5 3.41421 15.8358 3.75 16.25 3.75H19.1893L12.4697 10.4697Z" fill="currentColor">
+                        </path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="assets/PORTAFOLIO-JCPG.pdf" target="_blank" class="my-social-link w-inline-block">
+                    <svg class="svgsprite svg-s-32 mb-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 30 30" fill="none">                      
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M3 8.2C3 7.07989 3 6.51984 3.21799 6.09202C3.40973 5.71569 3.71569 5.40973 4.09202 5.21799C4.51984 5 5.0799 5 6.2 5H9.67452C10.1637 5 10.4083 5 10.6385 5.05526C10.8425 5.10425 11.0376 5.18506 11.2166 5.29472C11.4184 5.4184 11.5914 5.59135 11.9373 5.93726L12.0627 6.06274C12.4086 6.40865 12.5816 6.5816 12.7834 6.70528C12.9624 6.81494 13.1575 6.89575 13.3615 6.94474C13.5917 7 13.8363 7 14.3255 7H17.8C18.9201 7 19.4802 7 19.908 7.21799C20.2843 7.40973 20.5903 7.71569 20.782 8.09202C21 8.51984 21 9.0799 21 10.2V15.8C21 16.9201 21 17.4802 20.782 17.908C20.5903 18.2843 20.2843 18.5903 19.908 18.782C19.4802 19 18.9201 19 17.8 19H6.2C5.07989 19 4.51984 19 4.09202 18.782C3.71569 18.5903 3.40973 18.2843 3.21799 17.908C3 17.4802 3 16.9201 3 15.8V8.2Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="currentColor"></path>                      
+                    </svg>
+                    <div class="my-social-stats fw2">Portafolio</div>
+                    <div class="my-social-platform">Julio César Portafolio</div>
+                    <div class="hover-effect-link">
+                      <svg class="svgsprite svg-s-24 c-icon-inverse" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25H11.9431C9.87002 2.24999 8.23769 2.24997 6.96234 2.42144C5.65376 2.59737 4.60928 2.9661 3.78769 3.78769C2.9661 4.60928 2.59737 5.65376 2.42144 6.96234C2.24997 8.23769 2.24999 9.87002 2.25 11.9431V12V12.0569C2.24999 14.13 2.24997 15.7623 2.42144 17.0377C2.59737 18.3462 2.9661 19.3907 3.78769 20.2123C4.60928 21.0339 5.65376 21.4026 6.96234 21.5786C8.23769 21.75 9.87002 21.75 11.9431 21.75H12H12.0569C14.13 21.75 15.7623 21.75 17.0377 21.5786C18.3462 21.4026 19.3907 21.0339 20.2123 20.2123C21.0339 19.3907 21.4026 18.3462 21.5786 17.0377C21.75 15.7623 21.75 14.13 21.75 12.0569V12C21.75 11.5858 21.4142 11.25 21 11.25C20.5858 11.25 20.25 11.5858 20.25 12C20.25 14.1425 20.2484 15.674 20.0919 16.8378C19.9384 17.98 19.6481 18.6552 19.1516 19.1516C18.6552 19.6481 17.98 19.9384 16.8378 20.0919C15.674 20.2484 14.1425 20.25 12 20.25C9.85748 20.25 8.32603 20.2484 7.16221 20.0919C6.01997 19.9384 5.34478 19.6481 4.84835 19.1516C4.35192 18.6552 4.06164 17.98 3.90807 16.8378C3.75159 15.674 3.75 14.1425 3.75 12C3.75 9.85748 3.75159 8.32603 3.90807 7.16221C4.06164 6.01997 4.35192 5.34478 4.84835 4.84835C5.34478 4.35192 6.01997 4.06164 7.16221 3.90807C8.32603 3.75159 9.85748 3.75 12 3.75C12.4142 3.75 12.75 3.41421 12.75 3C12.75 2.58579 12.4142 2.25 12 2.25ZM12.4697 10.4697C12.1768 10.7626 12.1768 11.2374 12.4697 11.5303C12.7626 11.8232 13.2374 11.8232 13.5303 11.5303L20.25 4.81066V7.75C20.25 8.16421 20.5858 8.5 21 8.5C21.4142 8.5 21.75 8.16421 21.75 7.75V3C21.75 2.58579 21.4142 2.25 21 2.25H16.25C15.8358 2.25 15.5 2.58579 15.5 3C15.5 3.41421 15.8358 3.75 16.25 3.75H19.1893L12.4697 10.4697Z" fill="currentColor">
+                        </path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="tel:+522226799344" target="_blank" class="my-social-link w-inline-block">
+                    <svg class="svgsprite svg-s-32 mb-24" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 30 30" fill="none">                      
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" fill="currentColor"></path>                      
+                    </svg>
+                    <div class="my-social-stats fw2">Teléfono</div>
+                    <div class="my-social-platform">WhatsApp</div>
+                    <div class="hover-effect-link">
+                      <svg class="svgsprite svg-s-24 c-icon-inverse" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25H11.9431C9.87002 2.24999 8.23769 2.24997 6.96234 2.42144C5.65376 2.59737 4.60928 2.9661 3.78769 3.78769C2.9661 4.60928 2.59737 5.65376 2.42144 6.96234C2.24997 8.23769 2.24999 9.87002 2.25 11.9431V12V12.0569C2.24999 14.13 2.24997 15.7623 2.42144 17.0377C2.59737 18.3462 2.9661 19.3907 3.78769 20.2123C4.60928 21.0339 5.65376 21.4026 6.96234 21.5786C8.23769 21.75 9.87002 21.75 11.9431 21.75H12H12.0569C14.13 21.75 15.7623 21.75 17.0377 21.5786C18.3462 21.4026 19.3907 21.0339 20.2123 20.2123C21.0339 19.3907 21.4026 18.3462 21.5786 17.0377C21.75 15.7623 21.75 14.13 21.75 12.0569V12C21.75 11.5858 21.4142 11.25 21 11.25C20.5858 11.25 20.25 11.5858 20.25 12C20.25 14.1425 20.2484 15.674 20.0919 16.8378C19.9384 17.98 19.6481 18.6552 19.1516 19.1516C18.6552 19.6481 17.98 19.9384 16.8378 20.0919C15.674 20.2484 14.1425 20.25 12 20.25C9.85748 20.25 8.32603 20.2484 7.16221 20.0919C6.01997 19.9384 5.34478 19.6481 4.84835 19.1516C4.35192 18.6552 4.06164 17.98 3.90807 16.8378C3.75159 15.674 3.75 14.1425 3.75 12C3.75 9.85748 3.75159 8.32603 3.90807 7.16221C4.06164 6.01997 4.35192 5.34478 4.84835 4.84835C5.34478 4.35192 6.01997 4.06164 7.16221 3.90807C8.32603 3.75159 9.85748 3.75 12 3.75C12.4142 3.75 12.75 3.41421 12.75 3C12.75 2.58579 12.4142 2.25 12 2.25ZM12.4697 10.4697C12.1768 10.7626 12.1768 11.2374 12.4697 11.5303C12.7626 11.8232 13.2374 11.8232 13.5303 11.5303L20.25 4.81066V7.75C20.25 8.16421 20.5858 8.5 21 8.5C21.4142 8.5 21.75 8.16421 21.75 7.75V3C21.75 2.58579 21.4142 2.25 21 2.25H16.25C15.8358 2.25 15.5 2.58579 15.5 3C15.5 3.41421 15.8358 3.75 16.25 3.75H19.1893L12.4697 10.4697Z" fill="currentColor">
+                        </path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <footer class="footer">
+        <div class="footer-primary">
+          <div class="footer-top">
+            <div class="container">
+              <div class="footer-wrapper">
+                <div data-scroll-reveal="" id="w-node-_1550052a-7963-7a45-655d-1e2656afdb90-56afdb8b" class="footer-bio">
+                  <div class="footer-heading lh1 ff1 font-s-p3">Trabajemos juntos.</div>
+                  <div class="u-txt-tertiary">Póngase en contacto conmigo para oportunidades laborales, proyectos independientes, asesoramiento de diseño o simplemente para saludar.</div>
+                </div>
+                <div data-scroll-reveal="" class="footer-links">
+                  <h5 class="footer-headline">Prototipos</h5>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Adobe XD</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Adobe XD</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Sketch</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Sketch</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Figma</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Figma</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div data-scroll-reveal="" class="footer-links">
+                  <h5 class="footer-headline">Diseño</h5>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Adobe Creative Suite</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Adobe Creative Suite</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>MS Office 365</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">MS Office 365</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Branding/Identity</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Branding/Identity</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div data-scroll-reveal="" class="footer-links">
+                  <h5 class="footer-headline">Código</h5>
+                  <ul class="footer-list">
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>HTML5</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">HTML5</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>CSS3/ SASS</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">CSS3/ SASS</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Bootstrap</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Bootstrap</span></a>
+                    </li>
+                    <li class="footer-list-item">
+                      <a href="#" class="btn link w-inline-block"><em><span data-text="Button"><p>Js</p></span></em></a>
+                      <a href="#" target="_blank" class="btn-link"><span class="btn-link-span">Js</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <img src="assets/img/logo_jcesar.svg" loading="lazy" alt="" class="footer_logo" />
+          </div>
+        </div>
+
+        <div class="footer_secondary">
+          <div class="container">
+            <div class="footer_secondary-grid">
+              <div class="footer_grid-col">
+                <div class="u-txt-tertiary">JCésar ©2024</div>
+              </div>
+              <!--<div class="footer_grid-col">
+                <div class="location txt-tertiary">
+                  <div class="location_col">
+                    <div class="font-s-small">Puebla</div>
+                  </div>
+                  <!--<div class="location_col">
+                    <div id="temperature" class="font-s-small">9°C</div>
+                  </div>
+                  <div class="location_col">
+                    <div id="time" class="font-s-small">1:24 PM</div>
+                  </div>
+                  <div class="location_col weather">
+                    <img src="https://assets-global.website-files.com/65111bc3d36d02e461763c5f/653049bff6f76c0c70de7665_default.svg" loading="lazy" id="weather-icon" alt="" class="weather_icon"/>
+                  </div>
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="bottom-menu-sticky">
+      <div class="bottom-menu-wrap">
+        <div class="bottom-menu">
+          <a href="#home" class="bottom-menu-link is-link-icon w-inline-block">
+            <div class="bottom-menu-link-bg is-link-bg"></div>
+              <svg class="svgsprite svg-s-32" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none"><path d="M5 12.1799L5 9.54258L12.5 4L20 9.54258L20 12.1799L16.5239 9.6044C15.0772 8.53297 14.066 7.7706 13.4902 7.31731L13.4902 19L11.4888 19L11.4888 7.31731C10.7865 7.86676 9.7823 8.62912 8.47612 9.6044L5 12.1799Z" fill="currentColor"></path></svg> 
+          </a>
+          <a href="#how-it-works" class="bottom-menu-link w-inline-block"><p class="menu_link-text">Proceso</p><div class="bottom-menu-link-bg"></div></a>
+          <a href="#what-we-do" class="bottom-menu-link w-inline-block"><p class="menu_link-text fw2">Servcios</p><div class="bottom-menu-link-bg"></div></a>
+          <a href="#work" class="bottom-menu-link w-inline-block"><p class="menu_link-text fw2">Proyectos</p><div class="bottom-menu-link-bg"></div></a>
+          <a href="#quick-intro" class="bottom-menu-link w-inline-block"><p class="menu_link-text fw2">Acerca de Mi</p><div class="bottom-menu-link-bg"></div></a>
+          <div class="bottom-menu-shape">
+            <div class="bottom-menu-shape-bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65111bc3d36d02e461763c5f" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="assets/js/webflow.f11a332d0.js" type="text/javascript"></script>
+    <script src="assets/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/mouse-follower.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/6573.js"></script>
+    <script src="assets/js/6574.js"></script>
+  </body>
+</html>
